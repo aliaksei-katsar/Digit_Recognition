@@ -2,7 +2,8 @@ from tensorflow.keras.datasets import mnist
 import numpy as np
 
 
-def load_data():
+def load_data_logistic_regression():
+
     (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
     x_train = np.array([arr.flatten() for arr in x_train])
@@ -23,3 +24,17 @@ def load_data():
     filtered_x_test = filtered_x_test.astype(np.float32) / 255.0
 
     return filtered_x_train, filtered_y_train, filtered_x_test, filtered_y_test
+
+
+def load_data_softmax():
+
+    (x_train, y_train), (x_test, y_test) = mnist.load_data()
+
+    x_train = np.array([arr.flatten() for arr in x_train]) / 25500.0
+    y_train = np.array([np.isin(y_train, i) for i in range(10)])
+
+    x_test = np.array([arr.flatten() for arr in x_test]) / 25500.0
+    y_test = np.array(y_test)
+    #y_test = np.array([np.isin(y_test, i) for i in range(10)])
+
+    return x_train.T, y_train, x_test.T, y_test

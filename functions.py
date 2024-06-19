@@ -24,4 +24,17 @@ def hessian_loss_function(wb: np.array, x: np.array) -> np.array:
     w = wb[:-1]
     b = wb[-1]
     return np.reshape(np.sum(np.exp(-np.dot(w, xi) - b) / (1 + np.exp(-np.dot(w, xi) - b)) ** 2 *
-                  np.outer(np.append(xi, 1), np.append(xi, 1)) for xi in x), (len(wb), len(wb)))
+                             np.outer(np.append(xi, 1), np.append(xi, 1)) for xi in x), (len(wb), len(wb)))
+
+
+def softmax_sigmoid(w: np.array, x: np.array) -> np.array:
+    exp_dots = np.exp(np.dot(w.T, x))
+    return exp_dots / np.sum(exp_dots, axis=0)
+
+
+def softmax_loss_function(w: np.array, x: np.array, y: np.array) -> np.array:
+    return -1 / len(x) * np.sum(y * np.log(softmax_sigmoid(w, x)))
+
+
+def grad_softmax_loss_function(w: np.array, x: np.array, y: np.array) -> np.array:
+    return np.dot(x, (softmax_sigmoid(w, x) - y).T)
