@@ -1,5 +1,5 @@
 # Digit recognition using Logistic Regression, Softmax and Gradient Descent
-> This Python application leverages the MNIST dataset to recognize handwritten digits through the minimization of the Softmax function.
+> This repository contains Python scripts for implementing softmax and logistic regression models to recognize handwritten digits from the MNIST dataset.
 > 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -20,4 +20,9 @@
 
 ### Dataset 
 
-- MNIST dataset 
+- MNIST dataset
+
+### Model
+
+- ##Softmax Regression:
+- A multi-class logistic regression model using the softmax function.
