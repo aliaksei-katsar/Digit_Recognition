@@ -32,8 +32,8 @@
 
 ## Features
 
-- **Implementation**: Both softmax and logistic regression models were implemented in Python without relying on external libraries except for data handling and visualization.
-- **Performance**: Achieved accuracy scores of 93% and 99% on the test set for softmax and logistic regression models, respectively.
+- **Implementation**: Both softmax and logistic regression models were implemented in Python without relying on external libraries except for numpy.
+- **Performance**: Achieved accuracy scores of 92% and 99% on the test set for softmax and logistic regression models, respectively.
 - **Optimization**: Explored and compared different step size functions for gradient descent optimization.
 
 ## Results
