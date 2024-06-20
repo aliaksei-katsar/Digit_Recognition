@@ -19,7 +19,7 @@ hessian_loss = partial(f.hessian_loss_function, x=x_train)
 #running gradient descent using Armijo/Powell Wolfe/constant learning rate
 sol = gar.gradient_descent(loss, grad_loss, x_start, 1e-1)
 
-#trying global newton method, which doesn't work because matrix is singular
+#trying global newton method, which doesn't work because hessian matrix is always singular
 #sol = gn.global_newton(loss, grad_loss, hessian_loss, x_start)
 
 #trying solution on test set
