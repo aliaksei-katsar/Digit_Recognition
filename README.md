@@ -20,8 +20,7 @@
 
 ### Dataset 
 
-- [**COVID-19 Dataset**](https://github.com/owid/covid-19-data) provided by "Our World in Data".
-- **Analyzed timeframe**: 01.03.2020 - 24.09.2023.
+- MNIST dataset 
 
 ## Visualizations
 
