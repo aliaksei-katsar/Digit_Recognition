@@ -60,12 +60,7 @@
 
 ## Conclusion
 
-This project focuses on implementing and optimizing machine learning models for digit recognition using softmax regression and logistic regression techniques. Implemented from scratch in Python, these models achieved significant accuracy scores of 92% and 99% on test datasets for softmax and logistic regression, respectively, showcasing their effectiveness in classifying handwritten digits from the MNIST dataset.
-
-Optimization techniques such as gradient descent with the Armijo and Powell-Wolfe methods were explored to fine-tune model performance. This project provided valuable insights into implementing machine learning algorithms, handling data preprocessing, and optimizing model parameters to enhance accuracy and efficiency.
-
-For logistic regression, the Armijo and Powell-Wolfe methods proved effective. However, for softmax regression, these methods were less effective as they required more time to converge and didn't show significant results compared to using a constant learning rate.
-
+This project implemented and optimized machine learning models for digit recognition using softmax and logistic regression techniques in Python. Achieving high accuracies of 92% and 99% on test datasets for softmax and logistic regression, respectively, underscored their effectiveness in classifying MNIST handwritten digits. Optimization methods like gradient descent with Armijo and Powell-Wolfe rules were explored for performance enhancement. However, these methods proved less effective for softmax regression due to slower convergence compared to a constant learning rate. The Newton method was ineffective for both models due to a singular Hessian matrix.
 
 
 [constant_lreg]: results/constant_logistic_regression.png
