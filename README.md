@@ -14,9 +14,9 @@
 
 ### Goals
 
-- To understand the scale of the pandemic.
-- To figure out which countries have been the most affected.
-- To gather other possible insights that can be extracted from the data.
+- To implement Softmax function to distinguisch between the numbers in the dataset.
+- To implement gradient descent and Newton methods to minimize functions.
+- To try different stepwise methods(Powel Wolfe, Armijo, constant) and understeand their pros and cons.
 
 ### Dataset 
 
