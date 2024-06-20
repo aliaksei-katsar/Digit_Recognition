@@ -37,9 +37,10 @@
 - **Optimization**: Explored and compared different step size functions for gradient descent optimization.
 
 ## Results
+
 - **Logistic Regression with constant learning rate**:
   
-![constant_lreg][constant_lreg]
+[constant_lreg]
 
 [constant_lreg]: results/constant_logistic_regression.png
 [constant_softmax]: results/constant_logistic_regression.png "Softmax Regression with constant learning rate"
