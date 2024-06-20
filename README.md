@@ -24,5 +24,8 @@
 
 ### Model
 
-- ##Softmax Regression:
-- A multi-class logistic regression model using the softmax function.
+- **Softmax Regression**: A multi-class logistic regression model using the softmax function.
+- **Logistic Regression**: A binary logistic regression model for digit classification.
+- **Gradient Descent**: An optimization algorithm used to minimize a function iteratively by adjusting its parameters.
+- **Armijo method**: A line search method in optimization that ensures sufficient decrease of the objective function by adjusting the step size iteratively.
+- **Powel Wolfe method**: A line search method in optimization that combines the desirable properties of the Powell method for finding a local minimum and the Wolfe conditions for ensuring sufficient decrease and curvature.
