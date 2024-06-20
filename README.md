@@ -46,8 +46,8 @@
 ![constant_softmax]
 
 [constant_lreg]: results/constant_logistic_regression.png
-[constant_softmax]: results/constant_logistic_regression.png "Softmax Regression with constant learning rate"
-[armijo_lreg]: results/constant_logistic_regression.png "Logistic Regression with Armijo step size"
-[armijo_softmax]: results/constant_logistic_regression.png "Softmax Regression with Armijo step size"
-[powell_wolfe_lreg]: results/constant_logistic_regression.png "Logistic Regression with Powell-Wolfe step size"
-[powell_wolfe_softmax]: results/constant_logistic_regression.png "Softmax Regression with Powell-Wolfe step size"
+[constant_softmax]: results/constant_softmax.png "Softmax Regression with constant learning rate"
+[armijo_lreg]: results/armijo_logistic_regression.png "Logistic Regression with Armijo step size"
+[armijo_softmax]: results/armijo_softmax.png "Softmax Regression with Armijo step size"
+[powell_wolfe_lreg]: results/powell_wolfe_logistic_regression.png "Logistic Regression with Powell-Wolfe step size"
+[powell_wolfe_softmax]: results/powell_wolfe_softmax.png "Softmax Regression with Powell-Wolfe step size"
