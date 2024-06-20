@@ -41,6 +41,9 @@
 - **Logistic Regression with constant learning rate**:
   
 ![constant_lreg]
+- **Softmax Regression with constant learning rate**:
+  
+![constant_softmax]
 
 [constant_lreg]: results/constant_logistic_regression.png
 [constant_softmax]: results/constant_logistic_regression.png "Softmax Regression with constant learning rate"
