@@ -1,4 +1,4 @@
-# Digit recognition using Softmax and Gradient Descent
+# Digit recognition using Logistic Regression, Softmax and Gradient Descent
 > This Python application leverages the MNIST dataset to recognize handwritten digits through the minimization of the Softmax function.
 > 
 
