@@ -7,7 +7,7 @@
 ## Navigation
 
 - [Overview](#overview)
-- [Visualizations](#Visualizations)
+- [Features](#Features)
 - [Conclusion](#Conclusion)
 
 ## Overview
@@ -29,3 +29,10 @@
 - **Gradient Descent**: An optimization algorithm used to minimize a function iteratively by adjusting its parameters.
 - **Armijo method**: A line search method in optimization that ensures sufficient decrease of the objective function by adjusting the step size iteratively.
 - **Powel Wolfe method**: A line search method in optimization that combines the desirable properties of the Powell method for finding a local minimum and the Wolfe conditions for ensuring sufficient decrease and curvature.
+
+## Features
+
+- **Implementation**: Both softmax and logistic regression models were implemented in Python without relying on external libraries except for data handling and visualization.
+- **Performance**: Achieved accuracy scores of 93% and 99% on the test set for softmax and logistic regression models, respectively.
+- **Optimization**: Explored and compared different step size functions for gradient descent optimization.
+
