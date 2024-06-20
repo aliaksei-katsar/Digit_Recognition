@@ -1,6 +1,8 @@
 import numpy as np
 
 
+#functions to distinguish between 0 and 1
+
 def sigmoid(x) -> float:
     return 1 / (1 + np.exp(-x))
 
@@ -26,6 +28,8 @@ def hessian_loss_function(wb: np.array, x: np.array) -> np.array:
     return np.reshape(np.sum(np.exp(-np.dot(w, xi) - b) / (1 + np.exp(-np.dot(w, xi) - b)) ** 2 *
                              np.outer(np.append(xi, 1), np.append(xi, 1)) for xi in x), (len(wb), len(wb)))
 
+
+#functions to distinguish between all digits using softmax
 
 def softmax_sigmoid(w: np.array, x: np.array) -> np.array:
     exp_dots = np.exp(np.dot(w.T, x))
