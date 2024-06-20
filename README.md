@@ -37,7 +37,7 @@
 - **Optimization**: Explored and compared different step size functions for gradient descent optimization.
 
 ## Results
-- *Logistic Regression with constant learning rate*:
+- **Logistic Regression with constant learning rate**:
   
 ![constant_lreg][constant_lreg]
 
