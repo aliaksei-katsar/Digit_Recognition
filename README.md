@@ -38,3 +38,10 @@
 
 ## Results
 
+
+[constant_lreg]: results/constant_logistic_regression.png "Logistic Regression with constant learning rate"
+[constant_softmax]: results/constant_logistic_regression.png "Softmax Regression with constant learning rate"
+[armijo_lreg]: results/constant_logistic_regression.png "Logistic Regression with Armijo step size"
+[armijo_softmax]: results/constant_logistic_regression.png "Softmax Regression with Armijo step size"
+[powell_wolfe_lreg]: results/constant_logistic_regression.png "Logistic Regression with Powell-Wolfe step size"
+[powell_wolfe_softmax]: results/constant_logistic_regression.png "Softmax Regression with Powell-Wolfe step size"
