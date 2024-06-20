@@ -8,14 +8,14 @@
 
 - [Overview](#overview)
 - [Features](#Features)
-- [Conclusion](#Conclusion)
 - [Results](#Results)
+- [Conclusion](#Conclusion)
 
 ## Overview
 
 ### Goals
 
-- To implement Softmax function to distinguisch between the numbers in the dataset.
+- To implement Softmax function to distinguish between the numbers in the dataset.
 - To implement gradient descent and Newton methods to minimize functions.
 - To try different stepwise methods(Powel Wolfe, Armijo, constant) and understand their pros and cons.
 
