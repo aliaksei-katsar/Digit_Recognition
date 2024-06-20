@@ -9,6 +9,7 @@
 - [Overview](#overview)
 - [Features](#Features)
 - [Conclusion](#Conclusion)
+- [Results](#Results)
 
 ## Overview
 
@@ -56,6 +57,14 @@
 - **Softmax Regression with Powell-Wolfe step size**:
   
 ![powell_wolfe_softmax]
+
+## Conclusion
+
+This project focuses on implementing and optimizing machine learning models for digit recognition using softmax regression and logistic regression techniques. Implemented from scratch in Python, these models achieved significant accuracy scores of 92% and 99% on test datasets for softmax and logistic regression, respectively, showcasing their effectiveness in classifying handwritten digits from the MNIST dataset.
+
+Optimization techniques such as gradient descent with the Armijo and Powell-Wolfe methods were explored to fine-tune model performance. This project provided valuable insights into implementing machine learning algorithms, handling data preprocessing, and optimizing model parameters to enhance accuracy and efficiency.
+
+For logistic regression, the Armijo and Powell-Wolfe methods proved effective. However, for softmax regression, these methods were less effective as they required more time to converge and didn't show significant results compared to using a constant learning rate.
 
 
 
