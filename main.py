@@ -5,6 +5,8 @@ import data_loading
 from functools import partial
 import global_newton as gn
 
+
+
 #Distinguish between 0 and 1
 
 #loading data
